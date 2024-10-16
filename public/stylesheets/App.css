@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+li {
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+.fontStyle-regular {
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+.fontStyle-thin {
+  font-family: "Montserrat";
+  font-weight: 200;
+}
+.fontStyle-bold {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+button {
+  font-weight: 600;
+}
+
+/* About Section  */
+
+.gridAboutSection {
+  display: grid;
+  grid-template-rows: repeat(1, 30% 1fr);
+}
+
+/* services section  */
+
+.radialGradient {
+  background: radial-gradient(circle 150px, #433d60b9 5%, #211e2ea9 90%);
+
+}
+
+/* tech section  */
+
+.techImageBackground{
+  background: url('/images/TechSectionImage.png');
+}
+
+/* contact section  */
+
+.radialContactGradient {
+  background: radial-gradient(circle 400px, #433d6033 0%, #211e2e 100%);
+
+}
