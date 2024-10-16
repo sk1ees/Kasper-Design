@@ -1,7 +1,7 @@
 import React from "react";
 import AboutInfo from "../components/AboutInfo";
-import { FaArrowRight } from "react-icons/fa";
-import NumberCount from "../components/numberCount";
+
+import NumberCount from "../components/NumberCount";
 
 const ProcessSection = () => {
   return (
